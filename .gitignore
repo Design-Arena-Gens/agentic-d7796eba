@@ -914,4 +914,10 @@ config/database.yml
 *.tar
 *.zip
 
+# Allow tracked application library sources
+!lib/
+!lib/**
+!package.json
+!tsconfig.json
+
 # ===== END =====
